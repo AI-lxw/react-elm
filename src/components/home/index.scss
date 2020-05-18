@@ -1,0 +1,65 @@
+.home{
+    height: 2000px;
+    .location{
+        padding: .33rem .34rem .15rem .29rem;
+        background-image: linear-gradient(90deg,#0af,#0085ff);
+        font-size: .36rem;
+        font-weight: 600;
+        color:#fff;
+        display: flex;
+        .items{
+            padding-right: 0.1rem;
+        }
+        .location_msg{
+            width: 3.1rem;
+            margin-right: 0.16rem;
+        }
+    
+    }
+    .search{
+        position: sticky;
+        top: 0;
+        left: 0;
+        height: 1.05rem;
+        background-image: linear-gradient(90deg,#0af,#0085ff);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .search_box{
+            width: 6.95rem;
+            height: 0.73rem;
+            background-color: #fff;
+            border-radius: .05rem;
+            line-height: .73rem;
+            text-align: center;
+            font-size: 0.25rem;
+            color: #999;
+            .iconfont{
+                margin-right: 0.11rem;
+            }
+        }
+    }
+    .shoplist-title{
+        height: 1.1rem;
+        background-color: #fff;
+        font-size: .29rem;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .shoplist-title::before{
+        content: '';
+        width: 0.42rem;
+        height: 0.02rem;
+        margin-right: 0.2rem;
+        background-color: #999999;
+    }
+    .shoplist-title::after{
+        content: '';
+        width: 0.42rem;
+        height: 0.02rem;
+        margin-left: 0.2rem;
+        background-color: #999999;
+    }
+}
